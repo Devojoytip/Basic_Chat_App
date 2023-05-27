@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS";
+}
+
+body{
+    background-color: rgb(193, 187, 187);
+}
+
+#container{
+    margin: auto;
+    border: 4px solid rgb(135, 13, 13);
+    width: 50%;
+    height: 80vh;
+    margin-top: 50px;
+    background-color: bisque;
+}
+
+/* .message-view{
+    overflow: scroll;
+} */
+
+.h1{
+    margin: auto;
+}
+
+#message-div{
+    margin-top: 40px;
+    /* background-color: greenyellow; */
+    height: 65%;
+    width: 100%;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.message{
+    height: auto;
+    width: 40%;
+    border: 4px solid orange;
+    margin: 0.45rem;
+    background-color: red;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    overflow: auto;
+}
+
+.left{
+    float: left;
+    clear: both;
+    background-color: rgb(240, 92, 116);
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-div{
+    position: relative;
+    top: -5%;
+    padding: 2px;
+    width: 100%;
+}
+#send-container{
+    /* background-color: aqua; */
+    height: 50px;
+    position: relative;
+    top: 30px;
+}
+
+input{
+    height: 2.5rem;
+    width: 85%;
+    margin: 4px;
+    margin-right: 0;
+    font-size: 1.2rem;
+}
+
+button{
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 5px;
+}    
+    
+#chat-box{
+    position: relative;
+    top: -50px;
+}
+
